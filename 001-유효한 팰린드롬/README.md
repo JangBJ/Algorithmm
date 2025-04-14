@@ -43,3 +43,28 @@ public boolean isPalindrome(String s) {
 이유는 불필요한 소문자 바꿈 떄문임
 나는 시작부터 소문자로 모두 바꾸어 비교하기 때문에 불필요한 작업한것임  
 `else if`을 추가해서 `toLowerCase`해주기
+
+```java
+class Solution {
+    public boolean isPalindrome(String s) {
+        int start = 0;
+        int end = s.length() -1;
+
+        while(start < end){
+            if(!Character.isLetterOrDigit(s.charAt(start))){
+                start++;
+            }
+            else if(!Character.isLetterOrDigit(s.charAt(end))){
+                end--;
+            }
+            else if(Character.toLowerCase(s.charAt(start)) == Character.toLowerCase(s.charAt(end))){
+                start++;
+                end--;
+            }
+            else return false;
+        }
+        return true;
+    }
+}
+```
+99프로의 결과 값 나옴

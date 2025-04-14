@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e0de524-06d3-4a55-babd-8a732a28d3aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/004-가장 흔한 단어/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-가장 흔한 단어/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0e0de524-06d3-4a55-babd-8a732a28d3aa" name="Changes" comment="풀이 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,10 +75,25 @@
       <workItem from="1739148623809" duration="213000" />
       <workItem from="1739150096664" duration="5092000" />
       <workItem from="1739258944236" duration="8000" />
+      <workItem from="1743981728506" duration="2102000" />
+      <workItem from="1744584353394" duration="2684000" />
     </task>
+    <task id="LOCAL-00001" summary="풀이 수정">
+      <option name="closed" value="true" />
+      <created>1743982141450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743982141450</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="풀이 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="풀이 수정" />
   </component>
 </project>
