@@ -5,9 +5,73 @@
 4. 만약 모두 일치한다면 마지막으로 식별자 비교
 
 - `Character.isAlphabetic`
-
     문자인지 구분해줌
 
+```java
+class Solution {
+    public String[] reorderLogFiles(String[] logs) {
+        
+        int len = logs.length-1;
+
+        for(int i=logs.length-1; i>=0; i--){
+
+            String[] str = logs[i].split(" ");
+
+            if('0'<=str[1].charAt(0) && str[1].charAt(0)<= '9'){
+                String tmp = logs[len];
+                logs[len] = logs[i];
+                logs[i] = tmp;
+                len--;
+            }
+        }
+
+        for(int i=0; i<=len; i++){
+            
+            for(int j=i+1; j<=len; j++){
+                
+                String[] a = logs[i].split(" ");
+                String[] b = logs[j].split(" ");
+
+                int min = Integer.MAX_VALUE;
+                if(a.length>=b.length) min = b.length;
+                else min = a.length;
+
+                int k = 1;
+                while(k < min){
+                    if(!a[k].equals(b[k])){
+                        if(a[k].compareTo(b[k]) > 0){
+                            String tmp = logs[i];
+                            logs[i] = logs[j];
+                            logs[j] = tmp;
+                        }
+                        break;
+                    }
+                    k++;
+                }
+                if(k==min){
+                    if(a.length != b.length){
+                        if(a.length>b.length){
+                            String tmp = logs[i];
+                            logs[i] = logs[j];
+                            logs[j] = tmp;
+                        }
+                    }
+                    else {
+                        if(a[0].compareTo(b[0]) > 0){
+                            String tmp = logs[i];
+                            logs[i] = logs[j];
+                            logs[j] = tmp;
+                        }
+                    }
+                }
+            }
+        }
+        return logs;
+    }
+}
+```
+
+개선 코드
 ```java
 class Solution {
     public String[] reorderLogFiles(String[] logs) {

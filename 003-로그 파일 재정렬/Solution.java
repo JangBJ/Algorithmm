@@ -8,7 +8,6 @@ class Solution {
             else digitLists.add(log);
         }
 
-
         Collections.sort(letterLists, (s1, s2) -> {
             var t1 = s1.split(" ", 2);
             var t2 = s2.split(" ", 2);
@@ -21,7 +20,6 @@ class Solution {
 
             return compare;
         });
-
 
         letterLists.addAll(digitLists);
         return letterLists.toArray(String[]::new);
