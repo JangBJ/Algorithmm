@@ -32,7 +32,6 @@ class Solution {
         }
 
         for (int i = 0; i < str.size(); i++) {
-
             boolean isBanned = false;
 
             for (int j = 0; j < banned.length; j++) {
