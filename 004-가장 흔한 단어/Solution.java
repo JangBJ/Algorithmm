@@ -1,51 +1,20 @@
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
+        Set<String> bannedSet = new HashSet<>(Arrays.asList(banned));
+        Map<String, Integer> count = new HashMap<>();
 
-        paragraph = paragraph.replaceAll("[^a-zA-Z ]", " ");
-        paragraph = paragraph.toLowerCase();
+        for (var text : paragraph.replaceAll("\\W+", " ").toLowerCase().split(" ")) {
+            if (bannedSet.contains(text)) continue;
 
-        int best = -1;
-        int b = 0;
-        List<Integer> cnt = new ArrayList<Integer>();
-        List<String> str = new ArrayList<String>();
-
-        String[] check = paragraph.split(" ");
-
-        for(int i=0; i<check.length; i++){
-
-            if (check[i].isEmpty()) continue;
-
-            boolean found = false;
-
-            for (int j = 0; j < str.size(); j++) {
-                if (str.get(j).equals(check[i])) {
-                    cnt.set(j, cnt.get(j) + 1);
-                    found = true;
-                    break;
-                }
-            }
-
-            if (!found) {
-                str.add(check[i]);
-                cnt.add(1);
-            }
+            count.put(text, count.getOrDefault(text, 0) + 1);
         }
 
-        for (int i = 0; i < str.size(); i++) {
-            boolean isBanned = false;
-
-            for (int j = 0; j < banned.length; j++) {
-                if (str.get(i).equals(banned[j])) {
-                    isBanned = true;
-                    break;
-                }
-            }
-
-            if (!isBanned && cnt.get(i) > best) {
-                best = cnt.get(i);
-                b = i;
-            }
-        }
-        return str.get(b);
+        return count.entrySet()
+                .stream()
+                .sorted((e1, e2) -> e2.getValue() - e1.getValue())
+                .limit(1)
+                .map((e) -> e.getKey())
+                .findFirst()
+                .orElse(" ");
     }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e0de524-06d3-4a55-babd-8a732a28d3aa" name="Changes" comment="풀이 수정">
+    <list default="true" id="0e0de524-06d3-4a55-babd-8a732a28d3aa" name="Changes" comment="가장 흔한 단어">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +77,11 @@
       <workItem from="1739258944236" duration="8000" />
       <workItem from="1743981728506" duration="2102000" />
       <workItem from="1744584353394" duration="2684000" />
+      <workItem from="1744600114447" duration="1076000" />
+      <workItem from="1744717368934" duration="2643000" />
+      <workItem from="1744812254839" duration="1937000" />
+      <workItem from="1745410260116" duration="2150000" />
+      <workItem from="1745495102929" duration="2005000" />
     </task>
     <task id="LOCAL-00001" summary="풀이 수정">
       <option name="closed" value="true" />
@@ -86,7 +91,47 @@
       <option name="project" value="LOCAL" />
       <updated>1743982141450</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="유효한 펠린드롬 풀이">
+      <option name="closed" value="true" />
+      <created>1744601315302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744601315302</updated>
+    </task>
+    <task id="LOCAL-00003" summary="문자열 뒤집기 풀이 작성">
+      <option name="closed" value="true" />
+      <created>1744717890036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744717890036</updated>
+    </task>
+    <task id="LOCAL-00004" summary="로그파일 정렬">
+      <option name="closed" value="true" />
+      <created>1745413295669</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745413295669</updated>
+    </task>
+    <task id="LOCAL-00005" summary="로그파일 정렬">
+      <option name="closed" value="true" />
+      <created>1745496811156</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745496811156</updated>
+    </task>
+    <task id="LOCAL-00006" summary="가장 흔한 단어">
+      <option name="closed" value="true" />
+      <created>1745496851886</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745496851886</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +139,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="풀이 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="풀이 수정" />
+    <MESSAGE value="유효한 펠린드롬 풀이" />
+    <MESSAGE value="문자열 뒤집기 풀이 작성" />
+    <MESSAGE value="로그파일 정렬" />
+    <MESSAGE value="가장 흔한 단어" />
+    <option name="LAST_COMMIT_MESSAGE" value="가장 흔한 단어" />
   </component>
 </project>
