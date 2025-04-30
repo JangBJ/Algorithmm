@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e0de524-06d3-4a55-babd-8a732a28d3aa" name="Changes" comment="가장 흔한 단어">
+    <list default="true" id="0e0de524-06d3-4a55-babd-8a732a28d3aa" name="Changes" comment="문제 추가">
+      <change afterPath="$PROJECT_DIR$/006-가장 긴 팰린드롬 부분 문자열/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006-가장 긴 팰린드롬 부분 문자열/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +84,10 @@
       <workItem from="1744812254839" duration="1937000" />
       <workItem from="1745410260116" duration="2150000" />
       <workItem from="1745495102929" duration="2005000" />
+      <workItem from="1745676289966" duration="3407000" />
+      <workItem from="1745849753350" duration="1250000" />
+      <workItem from="1745892739133" duration="1704000" />
+      <workItem from="1745982809658" duration="5814000" />
     </task>
     <task id="LOCAL-00001" summary="풀이 수정">
       <option name="closed" value="true" />
@@ -131,11 +137,62 @@
       <option name="project" value="LOCAL" />
       <updated>1745496851886</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="가장 흔한 단어">
+      <option name="closed" value="true" />
+      <created>1745677208428</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745677208428</updated>
+    </task>
+    <task id="LOCAL-00008" summary="README.md 업데이트">
+      <option name="closed" value="true" />
+      <created>1745753571440</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745753571440</updated>
+    </task>
+    <task id="LOCAL-00009" summary="가장 흔한 단어 풀이 추가">
+      <option name="closed" value="true" />
+      <created>1745849806011</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745849806011</updated>
+    </task>
+    <task id="LOCAL-00010" summary="그룹 애너그램 총 풀이 추가">
+      <option name="closed" value="true" />
+      <created>1745895190488</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745895190488</updated>
+    </task>
+    <task id="LOCAL-00011" summary="문제 추가">
+      <option name="closed" value="true" />
+      <created>1745984242945</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745984242945</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="풀이 수정" />
@@ -143,6 +200,10 @@
     <MESSAGE value="문자열 뒤집기 풀이 작성" />
     <MESSAGE value="로그파일 정렬" />
     <MESSAGE value="가장 흔한 단어" />
-    <option name="LAST_COMMIT_MESSAGE" value="가장 흔한 단어" />
+    <MESSAGE value="README.md 업데이트" />
+    <MESSAGE value="가장 흔한 단어 풀이 추가" />
+    <MESSAGE value="그룹 애너그램 총 풀이 추가" />
+    <MESSAGE value="문제 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="문제 추가" />
   </component>
 </project>
