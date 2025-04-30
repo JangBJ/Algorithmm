@@ -8,3 +8,4 @@
 - [003-로그 파일 재정렬](https://leetcode.com/problems/reorder-data-in-log-files/)
 - [004-가장 흔한 단어](https://leetcode.com/problems/most-common-word/)
 - [005-그룹 애너그램](https://leetcode.com/problems/group-anagrams/)
+- [006-가장 긴 팰린드롬 부분 문자열](https://leetcode.com/problems/longest-palindromic-substring/)
