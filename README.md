@@ -11,4 +11,4 @@
 - [006-가장 긴 팰린드롬 부분 문자열](https://leetcode.com/problems/longest-palindromic-substring/)
 
 ### 배열
-- [007-두 수의 합](https://github.com/goo-goo-cone/algorithm?tab=readme-ov-file/)
+- [007-두 수의 합](https://leetcode.com/problems/two-sum/description/)
