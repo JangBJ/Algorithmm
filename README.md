@@ -9,3 +9,6 @@
 - [004-가장 흔한 단어](https://leetcode.com/problems/most-common-word/)
 - [005-그룹 애너그램](https://leetcode.com/problems/group-anagrams/)
 - [006-가장 긴 팰린드롬 부분 문자열](https://leetcode.com/problems/longest-palindromic-substring/)
+
+### 배열
+- [007-두 수의 합](https://github.com/goo-goo-cone/algorithm?tab=readme-ov-file/)
