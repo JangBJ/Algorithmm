@@ -17,37 +17,43 @@
 ## 풀이 코드
 ```java
 class Solution {
-    public int trap(int[] height) {
-        var res = 0;
-        var tmp = 0;
-        var cnt = -1;
-        var a = 0;
+   public int trap(int[] height) {
 
-        for(int i=0; i< height.length; i++){
-            // 0보다 크면 실행
-            if(height[i]>0){
-                // tmp보다 크고 인덱스도 바로 뒤가 아닌것이라면 계산한다
-                if(tmp <= height[i] && i-cnt != 1){
-                    res += tmp * (i-1-cnt)-a;
-                    tmp = height[i];
-                    cnt = i;
-                    a=0;
-                }
-                // tmp보다 작고 바로 뒤의 것이 아니라면 실행한다
-                else if(tmp > height[i]||i-cnt == 1){
-                    a += height[i];
-                }
-                //
-                else if(i==hei) {
-                    i= cnt + 1;
-                    tmp = 0;
-                }
-            }
-            // 0보다 작으면 실행 
-            else continue;
-        }
-        return res;
-    }
+      var tmp = 0;
+      var cnt = 0;
+      var res = 0;
+      var last = height.length-2;
+      var a = 0;
+
+      for(int i=0; i<height.length; i++){
+
+         if(height[i]>0 && tmp == 0){
+            tmp = height[i];
+            cnt = i;
+         }
+
+         else if(i-cnt == 1 || height[i]==0) continue;
+
+         else if(height[i]>=tmp) {
+            res += (i-cnt+1) * tmp - (tmp*2+a);
+            tmp = height[i];
+            cnt = i;
+         }
+
+         else if(tmp>height[i]) a += height[i];
+
+         else if(i==height.length-1 && cnt != height.length-1){
+            i = cnt + 1;
+            tmp = height[i];
+            cnt = i;
+         }
+
+         else if(cnt == last && tmp == height[last] || cnt==last+1 && tmp == height[last+1]) break;
+         else break;
+      }
+      return res;
+   }
+}
 }
 ```
 
