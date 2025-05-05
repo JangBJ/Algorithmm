@@ -62,3 +62,33 @@ class Solution {
    1. 그 큰값이 배열의 첫 요소나 끝 요소인지 찾는다
    2. 만약 맞다면 (큰요소 - 그다음 작은 요소) * 요소 간 인덱스차이
 2. 제일 큰 값 * 배열의 길이를 구하고 위에서 찾은 값들과 배열의 총 합을 빼준다.
+
+
+## 개선 풀이
+1. 시간 복잡도를 위해 투 포인터를 사용합니다
+2. 양 끝에서 고여있는 물의 양을 더하면서 가장 높은 크기의 막대를 찾아갑니다
+
+```java
+class Solution {
+    public int trap(int[] height) {
+        var size = height.length;
+        var sum = 0;
+        var ll = 0;
+        var rl = size - 1;
+        var lmax = height[0];
+        var rmax = height[rl];
+
+        while(ll <= rl) {
+            if(lmax <= rmax) {
+                lmax = Math.max(lmax, height[ll]);
+                sum += lmax - height[ll++];
+            }else {
+                rmax = Math.max(rmax, height[rl ]);
+                sum += rmax - height[rl--];
+            }
+        }
+
+        return sum;
+    }
+}
+```
