@@ -3,21 +3,17 @@ class Solution {
 
         Arrays.sort(nums);
 
-        int left;
-        int right;
-        int sum;
-
         List<List<Integer>> res = new ArrayList<>();
 
         for(int i=0; i<nums.length-2; i++){
 
             if(i>0 && nums[i] == nums[i-1]) continue;
 
-            left = i+1;
-            right = nums.length - 1;
+            var left = i+1;
+            var right = nums.length - 1;
 
             while(left < right){
-                sum = nums[i] + nums[left] + nums[right];
+                var sum = nums[i] + nums[left] + nums[right];
 
                 if(sum < 0) left++;
                 else if(sum > 0) right--;
