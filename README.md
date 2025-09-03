@@ -14,3 +14,4 @@
 - [007-두 수의 합](https://leetcode.com/problems/two-sum/description/)
 - [008-빗물 트래핑](https://leetcode.com/problems/trapping-rain-water/)
 - [009-세 수의 합](https://leetcode.com/problems/3sum/description/)
+- [010-배열 파티션1](https://leetcode.com/problems/array-partition/)
