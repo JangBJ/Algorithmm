@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e0de524-06d3-4a55-babd-8a732a28d3aa" name="Changes" comment="자신을 제외한 배열의 곱 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/012-주식을 사고팔기 가장 좋은 시점/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/012-주식을 사고팔기 가장 좋은 시점/solve.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="0e0de524-06d3-4a55-babd-8a732a28d3aa" name="Changes" comment="주식을 사고팔기 가장 좋은 시점 풀이 추가" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +92,7 @@
       <workItem from="1755417946203" duration="3694000" />
       <workItem from="1756784382645" duration="3478000" />
       <workItem from="1756902637608" duration="1729000" />
-      <workItem from="1756986618174" duration="8098000" />
+      <workItem from="1756986618174" duration="8134000" />
     </task>
     <task id="LOCAL-00001" summary="풀이 수정">
       <option name="closed" value="true" />
@@ -243,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756989863924</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="주식을 사고팔기 가장 좋은 시점 풀이 추가">
+      <option name="closed" value="true" />
+      <created>1757155488797</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1757155488797</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +279,7 @@
     <MESSAGE value="세 수의 합 풀이 타입추론" />
     <MESSAGE value="배열 파티션1 풀이 추가" />
     <MESSAGE value="자신을 제외한 배열의 곱 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="자신을 제외한 배열의 곱 풀이 추가" />
+    <MESSAGE value="주식을 사고팔기 가장 좋은 시점 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="주식을 사고팔기 가장 좋은 시점 풀이 추가" />
   </component>
 </project>
