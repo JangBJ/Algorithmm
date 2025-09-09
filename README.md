@@ -20,3 +20,4 @@
 
 ### 연결리스트
 - [013-팰린드롬 연결 리스트](https://leetcode.com/problems/palindrome-linked-list/description/)
+- [014-두 정렬 리스트의 병합](https://leetcode.com/problems/merge-two-sorted-lists/description/)
