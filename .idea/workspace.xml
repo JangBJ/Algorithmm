@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e0de524-06d3-4a55-babd-8a732a28d3aa" name="Changes" comment="두 정렬 리스트의 병합 풀이 추가" />
+    <list default="true" id="0e0de524-06d3-4a55-babd-8a732a28d3aa" name="Changes" comment="역순 연결 리스트I 풀이 추가">
+      <change beforePath="$PROJECT_DIR$/015-역순 연결 리스트I/solve.md" beforeDir="false" afterPath="$PROJECT_DIR$/015-역순 연결 리스트I/solve.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,6 +97,7 @@
       <workItem from="1756986618174" duration="8134000" />
       <workItem from="1757222371693" duration="3374000" />
       <workItem from="1757336827662" duration="6973000" />
+      <workItem from="1757676964545" duration="3646000" />
     </task>
     <task id="LOCAL-00001" summary="풀이 수정">
       <option name="closed" value="true" />
@@ -272,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757383117779</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="역순 연결 리스트I 풀이 추가">
+      <option name="closed" value="true" />
+      <created>1757677847704</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1757677847704</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +319,7 @@
     <MESSAGE value="주식을 사고팔기 가장 좋은 시점 풀이 추가" />
     <MESSAGE value="팰린드롬 연결 리스트 풀이 추가" />
     <MESSAGE value="두 정렬 리스트의 병합 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="두 정렬 리스트의 병합 풀이 추가" />
+    <MESSAGE value="역순 연결 리스트I 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="역순 연결 리스트I 풀이 추가" />
   </component>
 </project>
