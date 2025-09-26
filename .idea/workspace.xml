@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e0de524-06d3-4a55-babd-8a732a28d3aa" name="Changes" comment="역순 연결 리스트I 풀이 추가">
-      <change beforePath="$PROJECT_DIR$/015-역순 연결 리스트I/solve.md" beforeDir="false" afterPath="$PROJECT_DIR$/015-역순 연결 리스트I/solve.md" afterDir="false" />
+    <list default="true" id="0e0de524-06d3-4a55-babd-8a732a28d3aa" name="Changes" comment="KAKAO 2024 가장 많이 받은 선물 풀이">
+      <change afterPath="$PROJECT_DIR$/KAKAO/2024/도넛과 막대 그래프/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KAKAO/2024/도넛과 막대 그래프/solve.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KAKAO/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/KAKAO/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +100,7 @@
       <workItem from="1757222371693" duration="3374000" />
       <workItem from="1757336827662" duration="6973000" />
       <workItem from="1757676964545" duration="3646000" />
+      <workItem from="1757846599763" duration="9638000" />
     </task>
     <task id="LOCAL-00001" summary="풀이 수정">
       <option name="closed" value="true" />
@@ -283,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757677847704</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="KAKAO 2024 가장 많이 받은 선물 풀이">
+      <option name="closed" value="true" />
+      <created>1757850215723</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1757850215724</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +331,7 @@
     <MESSAGE value="팰린드롬 연결 리스트 풀이 추가" />
     <MESSAGE value="두 정렬 리스트의 병합 풀이 추가" />
     <MESSAGE value="역순 연결 리스트I 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="역순 연결 리스트I 풀이 추가" />
+    <MESSAGE value="KAKAO 2024 가장 많이 받은 선물 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="KAKAO 2024 가장 많이 받은 선물 풀이" />
   </component>
 </project>
